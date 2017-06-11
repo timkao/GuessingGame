@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+    <!-- Bootstrap and CSS here-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='GuessingGame-Part2/GuessingGame.js'></script>
+  </head>
+  <body>
+
+      <div id='app' class="container">
+
+        <div id='headers'>
+          <h1 class="center">Guessing Game</h1>
+          <h3 class="center">Guess a number between 0 and 100</h3>
+        </div>
+
+        <div id='main'>
+          <div id='parent-input' class="center">
+            <input id="player-input" class="center" type="text" autofocus="autofocus" placeholder="#" maxlength="3">
+            <button id="go" class="center btn btn-success">Go!</button>
+          </div>
+
+          <div id='guesses' class="center">
+            <ul>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+                <li class="guess">-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns" class="center">
+            <button id="resetAll" class="center btn btn-warning">Reset</button><button id="hints" class="center btn btn-info">Hint</button>
+          </div>
+        </div>
+      </div>
+
+    <div id='footer' class="center">
+        <div class="row">
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Tim Kao</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+  
+  </body>
+</html>
