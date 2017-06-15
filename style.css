@@ -28,7 +28,7 @@ img {
     display: inline-block;
     border-style: solid;
     border-radius: 10px;
-    font-size: 4em;
+    font-size: 3em;
     width: 2em;
     height: 2em;
     margin-top: 0.2em;
@@ -49,18 +49,18 @@ img {
 
 #player-input {
     border-radius: 100%;
-    width: 5em;
-    height: 5em;
-    font-size: 5em;
+    width: 4em;
+    height: 4em;
+    font-size: 4em;
     background-color: white;
 }
 
 #go {
     position: absolute;
-    top: 5em;
-    left: 15em;
-    width: 3em;
-    height: 3em;
+    top: 3em;
+    left: 14.5em;
+    width: 2.5em;
+    height: 2.5em;
     border-radius: 100%;
     font-size: 3em;
 }

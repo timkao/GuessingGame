@@ -166,6 +166,7 @@ $(document).ready(function(){
     $('#resetAll').on('click', function() {
         game = new Game();
         attachGuesses(); // clear the guesses on the UI
+        $('#player-input').val("");
         $('#hints, #go').prop('disabled', false); // enabled the buttons
         // reset headings
         $('#headers h1').text('Guessing Game');
